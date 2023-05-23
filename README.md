@@ -15,6 +15,6 @@ IPIU, Xidian University
 Setup a virtual conda environment using the provided `requirements.txt`.
 
 ```
-conda create --name RPF --file requirements.txt
-conda activate RPF
+conda create --name RPFNet --file requirements.txt
+conda activate RPFNet
 ```
