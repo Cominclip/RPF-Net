@@ -72,12 +72,10 @@ if __name__ == "__main__":
     cnn = torch.load('./backbone.pkl')
     cnn.cuda()
     
-
     label_x1 = []
     label_x2 = []
     label_y_loss = []
     label_y_accuracy = []
-
 
     def train(epoch):
         model.train()
@@ -114,12 +112,10 @@ if __name__ == "__main__":
         scheduler.step() 
         
 
-
     label_x3 = []
     label_x4 = []
     label_y_loss1 = []
     label_y_accuracy1 = []
-
 
     def test(epoch):
         model.eval()
@@ -151,10 +147,6 @@ if __name__ == "__main__":
         label_y_accuracy1.append(correct_num/data_num)
         return loss_meter.avg, correct_num/data_num
 
-
-
-
-
     for epoch in range(1, args.epochs + 1):
         print('train:')
         train(epoch)
@@ -162,8 +154,6 @@ if __name__ == "__main__":
         test(epoch)
 
     torch.save(model, './DUBlock.pkl')
-
-
 
     visual_train_DUBlock(label_x1,
                          label_y_loss, 
