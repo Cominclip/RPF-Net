@@ -10,11 +10,31 @@ IPIU, Xidian University
 
 ![](./assets/net.png)
 
-## Setting up a virtual conda environment
+## Preparation
+
+### Data
+
+1. Prepare the PAN and MS images and the ground truth file to `data`
+2. Ensure the format of images is `.tiff` or `.tif`, and the format of ground truth is `.npy`
+
+### Environment Setup
 
 Setup a virtual conda environment using the provided `requirements.txt`.
 
 ```
-conda create --name RPFNet --file requirements.txt
-conda activate RPFNet
+conda create --name RPF --file requirements.txt
+conda activate RPF
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
