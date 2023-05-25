@@ -28,7 +28,7 @@ conda activate RPF
 
 ## Training
 
-The code used for perturbing datasets is stored in `train` folder.
+The code used for training is stored in `train` folder.
 
 ```shell
 cd train
@@ -58,7 +58,7 @@ Note that you need to train the networks in the above order, and after training,
 
 ## Result
 
-The code used for perturbing datasets is stored in `utils` folder.
+The code used for caluating the final results is stored in `utils` folder.
 
 ```shell
 cd utils
