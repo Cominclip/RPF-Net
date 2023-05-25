@@ -14,8 +14,8 @@ IPIU, Xidian University
 
 ### Data
 
-1. Prepare the PAN and MS images and the ground truth file to `data`
-2. Ensure the format of images is `.tiff` or `.tif`, and the format of ground truth is `.npy`
+1. Prepare the PAN and MS images and the ground truth file to `data`.
+2. Ensure the format of images is `.tiff` or `.tif`, and the format of ground truth is `.npy`.
 
 ### Environment Setup
 
@@ -54,7 +54,7 @@ For RRLBlock(DQN):
 python train_DQN.py
 ```
 
-Note that you need to train the networks in the above order, and after training, you will get the  `.pkl`or `.pth`  files of the corresponding networks.
+Note that you need to train the networks in the above order, and after training, you will get the  `.pkl` or `.pth`  files of the corresponding networks.
 
 ## Result
 
