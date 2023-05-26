@@ -47,25 +47,3 @@ for i in range(len(location_of_test)):
     y_pred.append(results_detail[location_of_test[i][0]][location_of_test[i][1]].item())
 kappa_value = cohen_kappa_score(y_true, y_pred)
 print("Kappa:", kappa_value)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
