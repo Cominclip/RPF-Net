@@ -1,6 +1,6 @@
 import numpy as np
-
 import matplotlib.pyplot as plt
+
 
 def visual_train_Backbone(label_x1,
                           label_y_loss, 
@@ -54,7 +54,7 @@ def visual_train_DUBlock(label_x1,
 def visual_train_DQN(label_x, 
                      label_y_reward):
     fig = plt.figure()
-    label_x = [i for i in range(200)]
+    label_x = [i for i in range(2000)]
     plt.plot(label_x, label_y_reward, color='blue')
     plt.legend(['reward'], loc='upper right')
     plt.xlabel('eposide ')
