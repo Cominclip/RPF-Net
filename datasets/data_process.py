@@ -9,7 +9,7 @@ from torch.utils.data import Dataset, DataLoader
 
 from .dataset import MyData, MyData_for_all
 
-EPOCH = 45   
+EPOCH = 30  
 BATCH_SIZE = 32 
 LR = 0.001  
 Train_Rate = 0.01 
