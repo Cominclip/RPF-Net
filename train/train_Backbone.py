@@ -19,7 +19,7 @@ from utils.visualise import visual_train_Backbone
 model = Backbone().cuda()
 lr = 1e-3
 optimizer = optim.Adam(model.parameters(), lr=lr)
-scheduler = lr_scheduler.StepLR(optimizer, 13, gamma=0.1, last_epoch=-1)
+scheduler = lr_scheduler.StepLR(optimizer, 10, gamma=0.1, last_epoch=-1)
 
 
 label_x1 = []
